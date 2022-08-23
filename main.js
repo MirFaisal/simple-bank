@@ -4,8 +4,8 @@ loginBtn.addEventListener("click", function () {
     const passfild = document.getElementById("floatingPassword");
     const password = passfild.value;
     const email = emailFild.value;
-    if (email === 'mirfaisal08@gmail.com' && password === 'onektaka') {
-        location.replace("bank.html")
+    if (email === "mirfaisal08@gmail.com" && password === "onektaka") {
+        location.href = "bank.html";
     }
     else {
         alert("Please check your Email address and Password")
